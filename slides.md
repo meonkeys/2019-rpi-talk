@@ -3,7 +3,7 @@
 
 ## No, it will not hurt the chicken
 
-By [Adam Monsen](http://adammonsen.com), VP Engineering at [C-SATS, Inc.](https://csats.com)
+By [Adam Monsen](http://adammonsen.com), Senior Director of Engineering at [C-SATS, Inc.](https://www.csats.com)
 
 
 
