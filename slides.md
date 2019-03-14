@@ -13,16 +13,6 @@ Mobile? Swipe or touch arrow controls in the lower right.
 
 
 
-<video data-autoplay src="./vid/unlock.webm" style="height: 100%; width: 100%;"></video>
-
-
-
-<section data-background-video="./vid/unlock.webm" data-background-video-loop data-background-video-muted>
-	<h2>Video</h2>
-</section>
-
-
-
 ### Copyright and license
 
 ©2019 - Adam Monsen
