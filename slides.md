@@ -1,7 +1,5 @@
 <!-- .element: data-background-image="./img/chicken-at-front-door.jpg" -->
-# Automatic Chicken Door HOWTO
-
-## No, it will not hurt the chicken
+# Free Software for Safe & Happy Chickens
 
 By [Adam Monsen](http://adammonsen.com), Senior Director of Engineering at [C-SATS, Inc.](https://www.csats.com)
 
@@ -66,7 +64,7 @@ One with an automatic door!
 
 
 
-We need:
+This of course requires the following:
 
 
 <!-- .element: style="font-size: smaller;" -->
@@ -91,6 +89,8 @@ SpeakerNote: Public domain. [Source](https://commons.wikimedia.org/wiki/File:We_
 
 
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
+
+SpeakerNote: Here's the finished product.
 
 
 <!-- .element: data-background-image="./img/door-open.jpg" data-background-size="contain" -->
@@ -137,22 +137,32 @@ Let's talk about chickens.
 1. Never expose to sunlight
 1. Never feed after midnight
 
-SpeakerNote: Sorry, wrong primer (see Gremlins - 1984 movie)
+SpeakerNote: That was--as you know--from the movie Gremlins from 1984. Ahem. Let's try again.
 
 
 
 # Real chicken primer
 
 
-<!-- .element: data-background-image="./img/how-chicken-works.svg" data-background-size="contain" data-background-color="lightgrey" -->
-
-SpeakerNote: They also eat bugs and rocks.
-
-
 1. Food → Chicken → Egg
 1. Chicken not smart
 1. Must be locked in at night
 
+
+
+<!-- .element: data-background-image="./img/how-chicken-works.svg" data-background-size="contain" data-background-color="lightgrey" -->
+
+SpeakerNote: Here's your basic chicken input/output diagram. Note they also eat bugs and rocks.
+
+
+## Fun facts: chicken eyes
+
+* Right: near-sighted
+* Left: far-sighted
+* Eye size
+* Night vision poor
+
+SpeakerNote: Before hatching, right eye near shell becomes near-sighted. Left eye far. Two eyes can operate independently: right eye bugs, left eye hawks. Eyes are 10% of their head (less room for brains). Evolved dayurnal so night vision is poor. That means... [Source](https://www.fresheggsdaily.com/2013/10/do-you-see-what-i-see-12-fascinating.html)
 
 
 # Must be locked in at night
@@ -205,7 +215,7 @@ Yeah no. Let's automate it!
 
 ## Parts summary
 
-1. Raspberry Pi, motor, sensors
+1. Little computer, motor, sensors
 1. Scrap wood, string, magnets
 
 
@@ -302,8 +312,8 @@ SpeakerNote: Regulated power supply: $6
 ⏰ Cron job runs every 10 minutes.
 
 1. Poll 📊 light level and 🚪 door state.
-1. 🌇 Door open & sun down? → `close door`.
 1. 🐣 Door closed & sun up? → `open door`.
+1. 🌇 Door open & sun down? → `close door`.
 
 
 ## Door control flow
@@ -350,23 +360,25 @@ Helps you bridge the gap where hardware meets software.
 
 <!-- .element: data-background-image="./img/led-blink-wiring-diagram.png" data-background-size="contain" -->
 
+SpeakerNote: here's project 1 from the Adeept starter kit. Plug in a few parts then you can blink an LED with a line of code.
+
 
 
 ## More ideas
 
-* [Use Raspian OS](https://www.raspberrypi.org/downloads/raspbian/) 🐧
-    * codename: "stretch" (with desktop)
-* Try the camera: do a time-lapse video 🎥
-* Try a project from a Starter Kit (e.g. Adeept)
+* Try [Raspian OS](https://www.raspberrypi.org/downloads/raspbian/) with a Raspberry Pi 🐧
+    * "stretch with desktop and recommended software"
+* Try the camera: do a time-lapse video 🎬
+* Try a project from a Starter Kit (e.g. Adeept) 🛠️
 
 SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
 
 * Ask for help! 💭
-* Try combining sensors / lights / camera
+* Try combining sensors / lights / camera 📷
 * Use lots of emoji
-    * 🐔 📊 🚪 🚦 😓 ⏰ 🏁 🐣 🌇 📡 📷 🚧
-    * seriously
+    * 🐔 📊 🛠️ 🚪 🚦 🎬 😓 ⏰ 🏁 🐣 🌇 📡 🚧
+    * seriously 🗞️
     * one per unique log event 🌲
 
 
@@ -380,8 +392,8 @@ SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 (continued)
 
 
-* Use a 32GB flash card. I bricked a 64GB card.
-* Easy: camera. Plug & play! 🔌
+* Use a 32GB flash card. I bricked a 64GB card. 🚧
+* Easy: camera. Plug & play! 📷
 * Easy: loose tolerance for software (slow door, 10min between light checks).
 * Hard: door actuator: spindle, dealing with drag/resistance. Tight tolerance. 🚪
     * Temperature and humidity affect (wooden) door operation. 📊
@@ -395,7 +407,7 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 * Easy: magnetic (hall effect) sensor. 👍
 * Hard: Adeept Python photoresistor code didn't work, but C code did.
 * Easy: posting messages to IRC or Slack.
-* Early mistake: motion alerts for all chicken movement. 🐔
+* Motion alerts for all chicken movement? 🐔 no
 * [Adeept source is on GitHub](https://github.com/adeept/)
 * Nocturnal predators may also hunt during the day, and there are other daytime predators too. 🐕
 
@@ -403,7 +415,9 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 
 
 * Saw the effect of the near-total eclipse. 🌑
-* Always MVP and iterate. ✨
+* Always start with a MLP and iterate. ✨
+
+SpeakerNote: MLP = Minimum Lovable Product
 
 
 
@@ -432,6 +446,6 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 * Source <https://github.com/meonkeys/rpi-chx-code>
 * Slides <https://gitlab.com/meonkeys/2019-rpi-talk>
 * Blog <http://adammonsen.com>
-* Email <haircut@gmail.com>
+* Email <adam@adammonsen.com>
 
-SpeakerNote: I want to hear what works for you or what I could do better. Please let me know!
+SpeakerNote: Lotsa "m"s up there. I want to hear what works for you or what I could do better. Please let me know!
