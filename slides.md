@@ -79,18 +79,17 @@ This of course requires the following:
 * C + bash + python polyglot control code with standardized output convention
 * offline operation with 2.4Ghz wifi for monitoring and maintenance
 
+SpeakerNote: It's easy to get carried away. I mean,
 
-Or at least a door that automatically opens and closes with the sun. ☀
 
+<!-- .element: data-background-image="./img/stuck-out.jpg" data-background-size="contain" -->
 
-<!-- .element: data-background-image="./img/463px-We_Can_Do_It.jpg" data-background-size="contain" -->
-
-SpeakerNote: Public domain. [Source](https://commons.wikimedia.org/wiki/File:We_Can_Do_It!.jpg)
+SpeakerNote: there's a lot at stake and timing is everything. Here's an example of bad timing. But don't worry! We'll focus and iterate and eventually end up with:
 
 
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
 
-SpeakerNote: Here's the finished product.
+SpeakerNote: This! Here's the finished product.
 
 
 <!-- .element: data-background-image="./img/door-open.jpg" data-background-size="contain" -->
@@ -104,14 +103,20 @@ SpeakerNote: Here's the finished product.
 
 <!-- .element: data-background-video="./vid/unlock.webm" data-background-video-loop="true" -->
 
+SpeakerNote: gravity lock mechanism
+
 
 <!-- .element: data-background-video="./vid/door-open.webm" data-background-video-loop="true" -->
 
 
 <!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
 
+SpeakerNote: video capture from motion-activated camera
+
 
 <!-- .element: data-background-video="./vid/intruder.webm" data-background-size="contain" -->
+
+SpeakerNote: nosy neighbor here. Let's check in on Louise the hen.
 
 
 
@@ -132,12 +137,14 @@ Let's talk about chickens.
 
 # Chicken primer
 
+SpeakerNote: You all already know a thing or three about chickens. Most importantly:
+
 
 1. Never get wet
 1. Never expose to sunlight
 1. Never feed after midnight
 
-SpeakerNote: That was--as you know--from the movie Gremlins from 1984. Ahem. Let's try again.
+SpeakerNote: right? Well, not really. This was--as you know--from the movie Gremlins from 1984. Ahem. Let's try again.
 
 
 
@@ -162,7 +169,7 @@ SpeakerNote: Here's your basic chicken input/output diagram. Note they also eat 
 * Eye size
 * Night vision poor
 
-SpeakerNote: Before hatching, right eye near shell becomes near-sighted. Left eye far. Two eyes can operate independently: right eye bugs, left eye hawks. Eyes are 10% of their head (less room for brains). Evolved dayurnal so night vision is poor. That means... [Source](https://www.fresheggsdaily.com/2013/10/do-you-see-what-i-see-12-fascinating.html)
+SpeakerNote: Before hatching, right eye near shell becomes near-sighted. Left eye far. Two eyes can operate independently: right eye bugs, left eye hawks. Eyes are 10% of their head (less room for brains). Evolved diurnal so night vision is poor. That means... [Source](https://www.fresheggsdaily.com/2013/10/do-you-see-what-i-see-12-fascinating.html)
 
 
 # Must be locked in at night
@@ -370,6 +377,9 @@ SpeakerNote: here's project 1 from the Adeept starter kit. Plug in a few parts t
     * "stretch with desktop and recommended software"
 * Try the camera: do a time-lapse video 🎬
 * Try a project from a Starter Kit (e.g. Adeept) 🛠️
+* Free hardware: check out [EOMA68](https://www.crowdsupply.com/eoma68/micro-desktop) and [others](https://en.wikipedia.org/wiki/Open-source_hardware)
+
+(continued)
 
 SpeakerNote: Add mouse + keyboard + monitor for a perfect kid desktop!
 
