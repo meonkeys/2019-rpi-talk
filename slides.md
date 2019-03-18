@@ -426,8 +426,12 @@ SpeakerNote: PWM - Pulse Width Modulation. Use fluttering gas pedal analogy.
 
 * Saw the effect of the near-total eclipse. 🌑
 * Always start with a MLP and iterate. ✨
+* Use Free Software. 🎯
 
 SpeakerNote: MLP = Minimum Lovable Product
+
+
+<!-- .element: data-background-image="./img/YT-censor.png" data-background-size="contain" -->
 
 
 
