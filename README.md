@@ -9,9 +9,8 @@ Videos made with [Pitivi](http://www.pitivi.org/) (trim, remove audio) and [ffmp
 ## Links
 
 * [Source code for this talk](https://gitlab.com/meonkeys/2019-rpi-talk).
-* Rendered slideshow (TBD).
-* Talk details (TBD).
-* Follow-up blog post (TBD).
+* [Rendered slideshow](https://meonkeys.github.io/2019-rpi-talk/).
+* [Related blog post](https://adammonsen.com/post/1598/).
 
 # Copyright and license
 
