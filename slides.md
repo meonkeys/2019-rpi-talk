@@ -3,11 +3,20 @@
 
 By [Adam Monsen](http://adammonsen.com), Senior Director of Engineering at [C-SATS, Inc.](https://www.csats.com)
 
+SpeakerNote: Hello! I'm Adam. I run engineering and data science at C-SATS, the Seattle-based health care pioneer in objective measurement and improvement of surgeon technical skill. C-SATS is now a part of the Johnson & Johnson Institute.
+
+
+Welcome!
+
+SpeakerNote: And I've got an _adventure_ for you today. We'll meet Louise and follow her through tears and joy, **death**... and life. In the end, she'll only succeed if she's able to save the day, with Free Software!
+
 
 
 Use space bar or PgDn to advance through slides.
 
 Mobile? Swipe or touch arrow controls in the lower right.
+
+SpeakerNote: I will be reading for those with vision impairment and for those watching the live stream. The deck is also online--check adammonsen.com for updates.
 
 
 
@@ -20,7 +29,9 @@ Mobile? Swipe or touch arrow controls in the lower right.
 
 <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/"><img alt="Creative Commons License" style="border-width:0" src="https://i.creativecommons.org/l/by-sa/4.0/80x15.png" /></a>
 
-<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Automatic Chicken Door HOWTO</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://adammonsen.com" property="cc:attributionName" rel="cc:attributionURL">Adam Monsen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />For permissions beyond the scope of this license, contact <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:haircut@gmail.com" rel="cc:morePermissions">Adam</a>.
+<span xmlns:dct="http://purl.org/dc/terms/" property="dct:title">Free Software for Safe & Happy Chickens</span> by <a xmlns:cc="http://creativecommons.org/ns#" href="http://adammonsen.com" property="cc:attributionName" rel="cc:attributionURL">Adam Monsen</a> is licensed under a <a rel="license" href="http://creativecommons.org/licenses/by-sa/4.0/">Creative Commons Attribution-ShareAlike 4.0 International License</a>.<br />For permissions beyond the scope of this license, contact <a xmlns:cc="http://creativecommons.org/ns#" href="mailto:haircut@gmail.com" rel="cc:morePermissions">Adam</a>.
+
+SpeakerNote: I will be reading for those with vision impairment and for those watching the live stream. The deck is also online--check adammonsen.com for updates.
 
 
 
@@ -84,39 +95,47 @@ SpeakerNote: It's easy to get carried away. I mean,
 
 <!-- .element: data-background-image="./img/stuck-out.jpg" data-background-size="contain" -->
 
-SpeakerNote: there's a lot at stake and timing is everything. Here's an example of bad timing. But don't worry! We'll focus and iterate and eventually end up with:
+SpeakerNote: there's a lot at stake and timing is everything. Here's an example of bad timing -- you've got Rainbow sitting on top of Afro here. But don't worry! We'll focus and iterate and eventually end up with:
 
 
 <!-- .element: data-background-image="./img/whole-coop.jpg" data-background-size="contain" -->
 
-SpeakerNote: This! Here's the finished product.
+SpeakerNote: This! Here's the finished product. Here's a 4-bird chicken coop with a nesting box on the left, water, food, and an automatic door to the outside world. Let's zoom in on the door...
 
 
 <!-- .element: data-background-image="./img/door-open.jpg" data-background-size="contain" -->
 
+SpeakerNote: open, during the day
+
 
 <!-- .element: data-background-image="./img/door-closed.jpg" data-background-size="contain" -->
+
+SpeakerNote: closed at night
 
 
 <!-- .element: data-background-image="./img/installed-rpi.jpg" data-background-size="contain" -->
 
+SpeakerNote: here's the Raspberry Pi controller computer, power, and breakout board connecting with the sensors and motor
+
 
 <!-- .element: data-background-video="./vid/unlock.webm" data-background-video-loop="true" -->
 
-SpeakerNote: gravity lock mechanism
+SpeakerNote: here's the gravity lock mechanism unlatching
 
 
 <!-- .element: data-background-video="./vid/door-open.webm" data-background-video-loop="true" -->
 
+SpeakerNote: and the door traveling up
+
 
 <!-- .element: data-background-video="./vid/settle-in.webm" data-background-size="contain" -->
 
-SpeakerNote: video capture from motion-activated camera
+SpeakerNote: with the camera get motion-activated video capture using the program [motion](https://motion-project.github.io/). Here's a couple samples. First, Louise settling in for the night recorded at 2fps with a bounding box automatically drawn around the detected motion
 
 
 <!-- .element: data-background-video="./vid/intruder.webm" data-background-size="contain" -->
 
-SpeakerNote: nosy neighbor here. Let's check in on Louise the hen.
+SpeakerNote: and here's a nosy neighbor. Let's check back in on Louise the hen.
 
 
 
@@ -165,11 +184,11 @@ SpeakerNote: Here's your basic chicken input/output diagram. Note they also eat 
 ## Fun facts: chicken eyes
 
 * Right: near-sighted
-* Left: far-sighted
-* Eye size
-* Night vision poor
+* Left: far-sighted <!-- .element: class="fragment" -->
+* Eye size <!-- .element: class="fragment" -->
+* Night vision poor <!-- .element: class="fragment" -->
 
-SpeakerNote: Before hatching, right eye near shell becomes near-sighted. Left eye far. Two eyes can operate independently: right eye bugs, left eye hawks. Eyes are 10% of their head (less room for brains). Evolved diurnal so night vision is poor. That means... [Source](https://www.fresheggsdaily.com/2013/10/do-you-see-what-i-see-12-fascinating.html)
+SpeakerNote: *don't read this slide* →→→ Before hatching, their right eye is placed near the shell and becomes near-sighted. Left eye snuggles in feathers and becomes far sighted. →→→ Two eyes can operate independently: right eye bugs, left eye hawks. →→→ Eyes are 10% of their head (less room for brains). Evolved diurnal so night vision is poor. That means... [Source](https://www.fresheggsdaily.com/2013/10/do-you-see-what-i-see-12-fascinating.html)
 
 
 # Must be locked in at night
@@ -462,4 +481,4 @@ SpeakerNote: MLP = Minimum Lovable Product
 * Blog <http://adammonsen.com>
 * Email <adam@adammonsen.com>
 
-SpeakerNote: Lotsa "m"s up there. I want to hear what works for you or what I could do better. Please let me know!
+SpeakerNote: Lotsa "m"s up there.☺ I want to hear what works for you or what I could do better. Please let me know!
