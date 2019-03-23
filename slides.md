@@ -3,7 +3,23 @@
 
 By [Adam Monsen](http://adammonsen.com), Senior Director of Engineering at [C-SATS, Inc.](https://www.csats.com)
 
-SpeakerNote: Hello! I'm Adam. I run engineering and data science at C-SATS, the Seattle-based health care pioneer in objective measurement and improvement of surgeon technical skill. C-SATS is now a part of the Johnson & Johnson Institute. I'm also a co-founder of [SeaGL](https://seagl.org/), the Seattle GNU/Linux Conference. This year SeaGL turns six!
+
+<!-- .element: data-background-color="#ffffff" -->
+
+[![SeaGL](./img/seagl-logo.svg)](https://seagl.org)
+
+https://seagl.org
+
+SpeakerNote: Hello! I'm Adam. I'm a co-founder of [SeaGL](https://seagl.org/), the Seattle GNU/Linux Conference. This year SeaGL turns six!
+
+
+<!-- .element: data-background-color="#ffffff" -->
+
+[![C-SATS logo](./img/c-sats-logo.png)](https://csats.com)
+
+https://csats.com
+
+SpeakerNote: I also run engineering and data science at C-SATS, the Seattle-based health care pioneer in objective measurement and improvement of surgeon technical skill. C-SATS is now a part of the Johnson & Johnson Institute so we can share our education tools with health care professionals worldwide.
 
 
 Welcome!
@@ -16,7 +32,7 @@ Use space bar or PgDn to advance through slides.
 
 Mobile? Swipe or touch arrow controls in the lower right.
 
-SpeakerNote: I will be reading for those with vision impairment and for those watching the live stream. The deck is also online--check adammonsen.com for updates.
+SpeakerNote: I will be reading some key points those with vision impairment and for those watching the live stream. The deck is also online in rendered slides and plain text format--check adammonsen.com for updates.
 
 
 
@@ -184,9 +200,9 @@ SpeakerNote: Here's your basic chicken input/output diagram. Note they also eat 
 ## Fun facts: chicken eyes
 
 * Right: near-sighted
-* Left: far-sighted <!-- .element: class="fragment" -->
-* Eye size <!-- .element: class="fragment" -->
-* Night vision poor <!-- .element: class="fragment" -->
+* Left: far-sighted
+* Large eyes 👀 <!-- .element: class="fragment" -->
+* Poor night vision 🌃 <!-- .element: class="fragment" -->
 
 SpeakerNote: *don't read this slide* →→→ Before hatching, their right eye is placed near the shell and becomes near-sighted. Left eye snuggles in feathers and becomes far sighted. →→→ Two eyes can operate independently: right eye bugs, left eye hawks. →→→ Eyes are 10% of their head (less room for brains). Evolved diurnal so night vision is poor. That means... [Source](https://www.fresheggsdaily.com/2013/10/do-you-see-what-i-see-12-fascinating.html)
 
@@ -355,7 +371,7 @@ SpeakerNote: Regulated power supply: $6
 # Logmoji
 
 
-[![Log](./img/log.png)](./img/log.png)
+[![example log messages](./img/log.png)](./img/log.png)
 
 ```
 18:20 📊 Light level 120, door is open.
