@@ -3,7 +3,7 @@
 
 By [Adam Monsen](http://adammonsen.com), Senior Director of Engineering at [C-SATS, Inc.](https://www.csats.com)
 
-SpeakerNote: Hello! I'm Adam. I run engineering and data science at C-SATS, the Seattle-based health care pioneer in objective measurement and improvement of surgeon technical skill. C-SATS is now a part of the Johnson & Johnson Institute.
+SpeakerNote: Hello! I'm Adam. I run engineering and data science at C-SATS, the Seattle-based health care pioneer in objective measurement and improvement of surgeon technical skill. C-SATS is now a part of the Johnson & Johnson Institute. I'm also a co-founder of [SeaGL](https://seagl.org/), the Seattle GNU/Linux Conference. This year SeaGL turns six!
 
 
 Welcome!
