@@ -1,6 +1,6 @@
 # Chicken Door talk
 
-Slides for a talk about an automated chicken door controlled by a Raspberri Pi. To be presented at LibrePlanet 2019 and maybe LinuxFest Northwest 2019.
+Slides for a talk about an automated chicken door controlled by a Raspberri Pi. Presented at LibrePlanet 2019 and maybe LinuxFest Northwest 2019.
 
 Hit <kbd>s</kbd> to show [speaker notes](https://github.com/hakimel/reveal.js#speaker-notes).
 
