@@ -412,7 +412,7 @@ SpeakerNote: here's project 1 from the Adeept starter kit. Plug in a few parts t
     * "stretch with desktop and recommended software"
 * Try the camera: do a time-lapse video 🎬
 * Try a project from a Starter Kit (e.g. Adeept) 🛠️
-* Free hardware: check out [EOMA68](https://www.crowdsupply.com/eoma68/micro-desktop) and [others](https://en.wikipedia.org/wiki/Open-source_hardware)
+* [Open source hardware wikipedia page](https://en.wikipedia.org/wiki/Open-source_hardware)
 
 (continued)
 
