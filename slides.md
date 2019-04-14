@@ -151,7 +151,12 @@ SpeakerNote: with the camera get motion-activated video capture using the progra
 
 <!-- .element: data-background-video="./vid/intruder.webm" data-background-size="contain" -->
 
-SpeakerNote: and here's a nosy neighbor. Let's check back in on Louise the hen.
+SpeakerNote: here's a nosy neighbor.
+
+
+<!-- .element: data-background-image="./img/rat.jpg" data-background-size="contain" -->
+
+SpeakerNote: and another hungry neighbor here. Let's check back in on Louise the hen.
 
 
 
@@ -467,6 +472,13 @@ SpeakerNote: MLP = Minimum Lovable Product
 
 
 <!-- .element: data-background-image="./img/YT-censor.png" data-background-size="contain" -->
+
+SpeakerNote: here's why Free Software is important.
+
+
+<!-- .element: data-background-video="./vid/average-morning.webm" data-background-size="contain" -->
+
+SpeakerNote: here's the video they took down. Thank the gods.
 
 
 
